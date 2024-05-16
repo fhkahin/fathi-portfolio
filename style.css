@@ -62,7 +62,8 @@ section {
 img {
   float: left;
   margin-right: 20px;
-  border-radius: 20%;
+  border-radius: 15%;
+
 }
 
 h2 {
