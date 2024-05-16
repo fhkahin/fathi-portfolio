@@ -63,6 +63,10 @@ img {
   float: left;
   margin-right: 20px;
   border-radius: 15%;
+  transform: scale(0.8); /* Reducing size by 20% */
+}
+
+  
 
 }
 
