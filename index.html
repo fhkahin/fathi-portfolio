@@ -23,6 +23,32 @@
     </nav>
 
     <main>
+      <section class="hero">
+        <div class="slideshow-container">
+          <div class="slide fade" onclick="toggleSlideshow()">
+            <div class="hero-content">
+              <h1>About me</h1>
+              <a href="/about.html" class="btn">Learn more</a>
+            </div>
+          </div>
+          <div class="slide fade" onclick="toggleSlideshow()">
+            <div class="hero-content">
+              <h1>My projects</h1>
+              <a href="/projects.html" class="btn">Learn More</a>
+            </div>
+          </div>
+          <div class="slide fade" onclick="toggleSlideshow()">
+            <div class="hero-content">
+              <h1>Contact me</h1>
+              <a href="/contact.html" class="btn">learn more</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+      
+
       <section>
         <img src="m pic.png" alt="Fathi Kahin" class="c-section__image" />
         <h2 class="c-section__title">About Me</h2>
@@ -64,8 +90,29 @@
       </section>
     </main>
 
-    <footer class="c-site-footer">
-      <p class="c-site-footer__text">&copy; 2023 Fathi Kahin. All rights reserved.</p>
-    </footer>
+    <footer class="footer">
+              <div class="container">
+                  <div class="row">
+                      <div class="footer-col">
+                            <h4>Useful Links</h4>
+
+                          <ul>
+                              <li><a href="about.html">about me</a></li>
+                              <li><a href="projects.html">My projects</a></li>
+                              <li><a href="contact.html">Contact me</a></li>
+                          </ul>
+                      </div>
+                      <div class="footer-col">
+                          <h4>Get connected</h4>
+                          <ul>
+                              <li><a href="https://www.linkedin.com/in/fkahin">My Linkedin</i></a>
+                              <li><a href="#">My CV</a></li>
+                          </ul>
+                      </div>
+                      </div>
+                  </div>
+              </div>
+          </footer>
+    <script src="index.js"></script>
   </body>
 </html>
