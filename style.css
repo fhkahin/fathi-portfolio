@@ -130,15 +130,29 @@ h2 {
 }
 
 /* Slideshow styles */
-.slideshow-container {
-  max-width: 100%;
+
+
+.slideshow-wrapper {
+  max-width: 1200px;
+  width: 100%;
   position: relative;
   margin: auto;
   border: 10px solid transparent;
   border-image: linear-gradient(to right, #222222, #222222, #222222, #a97a40, #ffb347, #f7941d, #f7941d) 1;
-  padding: 20px; /* Optional: Add padding to the slideshow */
+  padding: 20px;
 }
 
+.slideshow-container {
+  /* No need for max-width, width, position, margin, border, or padding here */
+}
+
+.slideshow-content {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Your existing footer styles */
 .slide {
   display: none;
 }
@@ -223,6 +237,52 @@ body {
 ul {
   list-style: none;
 }
+
+.c-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.c-card {
+  border: 10px solid #f7941d;
+  padding: 20px;
+  margin: 5px;
+  text-align: center;
+  width: 50%; 
+}
+
+.c-card a {
+  text-decoration: none;
+  color: #333;
+}
+
+.c-card ul {
+  list-style-type: none; 
+  padding: 0; 
+}
+
+.c-card li {
+  margin-bottom: 10px; 
+  display: flex;
+  align-items: center;
+  justify-content: start; /* Ensures icons and text are aligned properly */
+}
+
+.c-card li i {
+  margin-right: 8px; /* Add space between the icon and the text */
+  color: #4CAF50; /* Change the icon color */
+}
+
+@media screen and (max-width: 600px) {
+  .c-card {
+    width: 100%; /* Make cards take full width on smaller screens */
+  }
+}
+
+
+
+
+
 
 .footer {
   background-color: #222222;

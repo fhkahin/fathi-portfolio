@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Personal Homepage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="style.css" />
     <link rel="about" href="/about.html" />
     <link rel="contact" href="/contact.html" />
@@ -24,6 +25,7 @@
 
     <main>
       <section class="hero">
+        <div class="slideshow-wrapper">
         <div class="slideshow-container">
           <div class="slide fade" onclick="toggleSlideshow()">
             <div class="hero-content">
@@ -60,59 +62,64 @@
       </section>
       
       <section class="c-section">
-        <div class="c-card" id="card1">
-          <h2 class="c-section__title">My Projects (Website Links)</h2>
-          <ul>
-            <li><a href="https://cyf-react-hotel-project.netlify.app/" target="_blank">React Hotel Project</a></li>
-         <li><a href="https://cyf-fhkahin-tv.netlify.app/" target="_blank">TV project</a></li>
-            <li><a href="https://deploy-preview-469--cyf-bfr.netlify.app/" target="_blank">Bikes for Refugees</a></li>
-            <li><a href="https://deploy-preview-108--cyf-module-html-css.netlify.app/wireframe/" target="_blank">Wireframe to Web Code</a></li>
-            <li><a href="https://deploy-preview-643--cyf-module-project-html-css.netlify.app/level-2/store" target="_blank">Store Page</a></li>
-              <li><a href="https://deploy-preview-130--cyf-module-html-css.netlify.app/cakes-co/" target="_blank">Cakes Co</a></li>
-            <li><a href="https://deploy-preview-643--cyf-module-project-html-css.netlify.app/" target="_blank">Karma Project</a></li>
-            <li><a href="https://deploy-preview-178--cyf-module -html-css.netlify.app/multipage-clone" target="_blank">Multipage Clone</a></li>
-          </ul>
-        </div>
-    
-        <div class="c-card" id="card2">
-          <h2 class="c-section__title">My Projects (GitHub Links)</h2>
-          <ul>
-            <li><a href="https://github.com/fhkahin/React-Module-Project" target="_blank">React Hotel Project</a></li>
-         <li><a href="https://github.com/fhkahin/JS3-Module-Project" target="_blank">TV project</a></li>
-            <li><a href="https://github.com/CodeYourFuture/bikes-for-refugees/pull/469" target="_blank">Bikes for Refugees</a></li>
-            <li><a href="https://github.com/CodeYourFuture/Module-HTML-CSS/pull/108" target="_blank">Wireframe to Web Code</a></li>
-            <li><a href="https://github.com/CodeYourFuture/HTML-CSS-Module-Project/pull/643" target="_blank">Store Page</a></li>
-              <li><a href="https://github.com/CodeYourFuture/Module-HTML-CSS/pull/130" target="_blank">Cakes Co</a></li>
-            <li><a href="https://github.com/CodeYourFuture/HTML-CSS-Module-Project/pull/643" target="_blank">Karma Project</a></li>
-            <li><a href="https://github.com/CodeYourFuture/Module-HTML-CSS/pull/178" target="_blank">Multipage Clone</a></li>
-          </ul>
-        </div>
+       <div class="c-card" id="card1">
+        <h2 class="c-section__title">My Projects (Website Links)</h2>
+        <ul>
+            <li><i class="fas fa-link"></i> <a href="https://cyf-react-hotel-project.netlify.app/" target="_blank">React Hotel Project</a></li>
+            <li><i class="fas fa-link"></i> <a href="https://cyf-fhkahin-tv.netlify.app/" target="_blank">TV project</a></li>
+            <li><i class="fas fa-link"></i> <a href="https://deploy-preview-469--cyf-bfr.netlify.app/" target="_blank">Bikes for Refugees</a></li>
+            <li><i class="fas fa-link"></i> <a href="https://deploy-preview-108--cyf-module-html-css.netlify.app/wireframe/" target="_blank">Wireframe to Web Code</a></li>
+            <li><i class="fas fa-link"></i> <a href="https://deploy-preview-643--cyf-module-project-html-css.netlify.app/level-2/store" target="_blank">Store Page</a></li>
+            <li><i class="fas fa-link"></i> <a href="https://deploy-preview-130--cyf-module-html-css.netlify.app/cakes-co/" target="_blank">Cakes Co</a></li>
+            <li><i class="fas fa-link"></i> <a href="https://deploy-preview-643--cyf-module-project-html-css.netlify.app/" target="_blank">Karma Project</a></li>
+            <li><i class="fas fa-link"></i> <a href="https://deploy-preview-178--cyf-module-html-css.netlify.app/multipage-clone" target="_blank">Multipage Clone</a></li>
+        </ul>
+    </div>
+
+    <div class="c-card" id="card2">
+        <h2 class="c-section__title">My Projects (GitHub Links)</h2>
+        <ul>
+            <li><i class="fas fa-project-diagram"></i> <a href="https://github.com/fhkahin/React-Module-Project" target="_blank">React Hotel Project</a></li>
+            <li><i class="fas fa-project-diagram"></i> <a href="https://github.com/fhkahin/JS3-Module-Project" target="_blank">TV project</a></li>
+            <li><i class="fas fa-project-diagram"></i> <a href="https://github.com/CodeYourFuture/bikes-for-refugees/pull/469" target="_blank">Bikes for Refugees</a></li>
+            <li><i class="fas fa-project-diagram"></i> <a href="https://github.com/CodeYourFuture/Module-HTML-CSS/pull/108" target="_blank">Wireframe to Web Code</a></li>
+            <li><i class="fas fa-project-diagram"></i> <a href="https://github.com/CodeYourFuture/HTML-CSS-Module-Project/pull/643" target="_blank">Store Page</a></li>
+            <li><i class="fas fa-project-diagram"></i> <a href="https://github.com/CodeYourFuture/Module-HTML-CSS/pull/130" target="_blank">Cakes Co</a></li>
+            <li><i class="fas fa-project-diagram"></i> <a href="https://github.com/CodeYourFuture/HTML-CSS-Module-Project/pull/643" target="_blank">Karma Project</a></li>
+            <li><i class="fas fa-project-diagram"></i> <a href="https://github.com/CodeYourFuture/Module-HTML-CSS/pull/178" target="_blank">Multipage Clone</a></li>
+        </ul>
+    </div>
       </section>
     </main>
 
     <footer class="footer">
-              <div class="container">
-                  <div class="row">
-                      <div class="footer-col">
-                            <h4>Useful Links</h4>
+              <div class="container">
+                  <div class="row">
+                      <div class="footer-col">
+                            <h4>Useful Links</h4>
 
-                          <ul>
-                              <li><a href="about.html">about me</a></li>
-                              <li><a href="projects.html">My projects</a></li>
-                              <li><a href="contact.html">Contact me</a></li>
-                          </ul>
-                      </div>
-                      <div class="footer-col">
-                          <h4>Get connected</h4>
-                          <ul>
-                              <li><a href="https://www.linkedin.com/in/fkahin">My Linkedin</i></a>
-                              <li><a href="about.html">My CV</a></li>
-                          </ul>
-                      </div>
-                      </div>
-                  </div>
-              </div>
-          </footer>
+                          <ul>
+                              <li><a href="about.html" >about me</a></li>
+                              <li><a href="projects">My projects</a></li>
+                              <li><a href="contact">Contact me</a></li>
+                          </ul>
+                      </div>
+                      <div class="footer-col">
+                          <h4>Get connected</h4>
+                          <ul>
+                              <li><a href="https://www.linkedin.com/in/fkahin">My Linkedin</i></a>
+                              <li><a href="about">My CV</a></li>
+                          </ul>
+                      </div>
+                      </div>
+                  </div>
+              </div>
+          </footer>
+
+  <!-- Font Awesome -->
+ 
+</body>
+</html>
     <script src="index.js"></script>
   </body>
 </html>
